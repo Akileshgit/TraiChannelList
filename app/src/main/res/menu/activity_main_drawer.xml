@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_attachment_black_24dp"
+            android:title="Choose pay Channel" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_attachment_black_24dp"
+            android:title="Free Air Channel" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_attachment_black_24dp"
+            android:title="Choose Your Bouquets" />
+        <item
+            android:id="@+id/nav_selection"
+            android:icon="@drawable/ic_attachment_black_24dp"
+            android:title="View Selection " />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_assignment_ind_black_24dp"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="FeedBack" />
+        </menu>
+    </item>
+
+</menu>
